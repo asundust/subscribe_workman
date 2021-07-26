@@ -1,0 +1,63 @@
+2018-11-14 11:49:50 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in D:\www\workerman_server\app\start_listen.php:15
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Connection\TcpConnection))
+#1 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2389): call_user_func(Object(Closure), Object(Workerman\Connection\TcpConnection))
+#2 [internal function]: Workerman\Worker->acceptConnection(Resource id #13)
+#3 D:\www\workerman_server\vendor\workerman\workerman\Events\Select.php(295): call_user_func_array(Array, Array)
+#4 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2322): Workerman\Events\Select->loop()
+#5 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1315): Workerman\Worker->run()
+#6 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#7 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#8 D:\www\workerman_server\app\start_listen.php(33): Workerman\Worker::runAll()
+#9 {main}
+2018-11-14 11:49:50 pid:1 Worker process terminated
+2018-11-14 11:55:20 pid:1 ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected in D:\www\workerman_server\app\start_listen.php:15
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2307): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1315): Workerman\Worker->run()
+#3 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#4 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#5 D:\www\workerman_server\app\start_listen.php(40): Workerman\Worker::runAll()
+#6 {main}
+2018-11-14 11:55:21 pid:1 Worker process terminated
+2018-11-14 11:56:11 pid:1 Error: Call to undefined method Workerman\Worker::send() in D:\www\workerman_server\app\start_listen.php:27
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2307): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1315): Workerman\Worker->run()
+#3 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#4 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#5 D:\www\workerman_server\app\start_listen.php(40): Workerman\Worker::runAll()
+#6 {main}
+2018-11-14 11:56:12 pid:1 Worker process terminated
+2018-11-14 11:56:42 pid:1 Error: Call to undefined method Workerman\Worker::send() in D:\www\workerman_server\app\start_listen.php:27
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2307): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1315): Workerman\Worker->run()
+#3 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#4 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#5 D:\www\workerman_server\app\start_listen.php(40): Workerman\Worker::runAll()
+#6 {main}
+2018-11-14 11:56:43 pid:1 Worker process terminated
+2018-11-14 12:22:57 pid:1 Error: Call to undefined method Workerman\Worker::send() in D:\www\workerman_server\app\start_listen.php:27
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2307): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1315): Workerman\Worker->run()
+#3 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#4 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#5 D:\www\workerman_server\app\start_listen.php(40): Workerman\Worker::runAll()
+#6 {main}
+2018-11-14 12:22:58 pid:1 Worker process terminated
+2018-11-14 12:25:46 pid:1 Error: Call to undefined method Workerman\Worker::send() in D:\www\workerman_server\app\start_listen.php:27
+Stack trace:
+#0 [internal function]: {closure}(Object(Workerman\Worker))
+#1 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(2307): call_user_func(Object(Closure), Object(Workerman\Worker))
+#2 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1315): Workerman\Worker->run()
+#3 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#4 D:\www\workerman_server\vendor\workerman\workerman\Worker.php(507): Workerman\Worker::forkWorkers()
+#5 D:\www\workerman_server\app\start_listen.php(40): Workerman\Worker::runAll()
+#6 {main}
+2018-11-14 12:25:47 pid:1 Worker process terminated
